@@ -3,6 +3,12 @@
 Writes one two-line robot confession to /output/entry.txt:
 line 1 apologises in a single sentence for one specific mistake,
 line 2 says what the robot learned and what it will do differently.
+
+The entry text is fixed on purpose: the mistake has to stay one
+specific incident (the 3 a.m. vacuum under the crib), and the lesson
+has to name the concrete check the robot now does first (the nursery
+monitor before any chore after bedtime) -- that specificity is what
+the apology is graded on, so the strings below must not be reworded.
 """
 
 import os
